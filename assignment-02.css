@@ -1,0 +1,77 @@
+.text{
+    font-size: 50px;
+    margin: auto;
+    font-family: "Orbitron", Arial, sans-serif;
+    text-align: center;
+}
+.simon-game{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+.circle {
+    border:12px solid rgb(23, 23, 23);    
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    cursor: pointer;
+}
+.green{
+    background-color: #64C51B;
+    margin-bottom: 430px;
+    margin-right: 430px;
+    position: absolute;
+}
+.red{
+    background-color: #E50100;
+    margin-bottom: 430px;
+    margin-left: 430px;
+    position: absolute;
+}
+.yellow{
+    background-color: #FEC63F;
+    margin-right: 430px;
+    margin-top: 430px;
+    position: absolute;
+}
+.blue{
+    background-color: #2D75DE;
+    margin-left: 430px;
+    margin-top: 430px;
+    position: absolute;
+}
+.base{
+    background-color: rgb(44, 44, 44);
+    border:12px solid rgb(23, 23, 23);
+    height:500px;
+    width:500px;
+    border-radius:50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.indicator{
+    position: absolute;
+
+    border:6px solid rgb(23, 23, 23);
+    background-color: red;    
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-top: 200px;
+}
+
+.btn{
+    font-family: "Orbitron", Arial, sans-serif;
+    font-size: 40px;
+    background-color: rgb(212, 212, 212);
+    color: rgb(25, 25, 25);
+    margin-top: 50px;
+    border:3px solid rgb(23, 23, 23);
+    border-radius: 5px;
+}
+.start{
+    padding: 3px;
+    cursor: pointer;
+}
